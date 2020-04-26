@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <%- include('./partials/head') %>
+</head>
+
+<body>
+  <%- include('./partials/menu') %>
+  <div class="container">
+
+    <div class="row">
+        <div class="col-sm-2">
+            <nav class="nav-sidebar">
+                <ul class="nav">
+                    <li class="active"><a href="javascript:;">Home</a></li>
+                    <li><a href="/search?q=' '">Products</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container-fluid bg-3 text-center">
+          <h3><%= page %></h3><br> 
+        </div>
+      </div>
+</div>
+ 
+</body>
+
+<%- include('./partials/script') %>
+
+
+</html>
