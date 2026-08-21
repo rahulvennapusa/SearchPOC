@@ -13,7 +13,7 @@
     "@sentry/node": "^5.15.5",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
-    "ejs": "^3.1.2",
+    "ejs": "^3.1.10",
     "express": "^4.17.1",
     "logger": "0.0.1",
     "morgan": "^1.10.0",
